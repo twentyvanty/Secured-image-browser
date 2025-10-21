@@ -1,5 +1,5 @@
 # Secured-image-browser
-## Library installation
+## Setup Project
 - Open command prompt on laptop
   1. type ```python -m pip install --upgrade pip```
   2. type ```python -m pip install cryptography```
