@@ -53,7 +53,10 @@ def decrypt_image(input_image_path, output_image_path, seed):
 
 def select_input_img():
     """Opens a file dialog to select an input image."""
-    input_image_path = filedialog.askopenfilename(title="Select Image")
+    input_image_path = filedialog.askopenfilename(
+        title="Select Image",
+        filetypes=[("Image files", "*.png;*.jpg;*.jpeg;*.bmp;*.tiff;*.gif"), ("All files", "*.*")]
+    )
     input_image_label.config(text=input_image_path)
 
 
@@ -65,6 +68,8 @@ def select_output_img(input_image_path, mode):
     if mode == "Encrypt" :
         default_name = base + "_encrypted"  + ext
     else :
+        if base.endswith("_encrypted"):
+            base = base[:-10]
         default_name = base + "_decrypted"  + ext
 
     output_image_path = filedialog.asksaveasfilename(
