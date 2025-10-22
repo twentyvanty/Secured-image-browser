@@ -30,7 +30,7 @@ These are the components used in this project. More details about the Tkinter li
 Components:
 - To create the main window, use ```Tk()```. Then ```.title()``` to name the title of the window. Use ```.geometry()``` to set the size of the window, and use ```.resizable(False, False)``` to make sure that the window will not be resizable.
 - Use ```Label()``` and ```Entry()``` for input field.
-- Use ```Button()``` to create button with text, and ```.pack() to organizes the widgets in blocks before placing in the parent widget.
+- Use ```Button()``` to create button with text, and ```.pack()``` to organizes the widgets in blocks before placing in the parent widget.
 - Use ```filedialog.askopenfilename()``` to create file/directory selection windows for user to select input image. Then use ()```filedialog.asksaveasfilename()``` for user to choose where to save the output image.
 - Use ```messagebox.showerror()``` to display error message box and ```messagebox.showinfo()``` to display information message box.
 - Use ```.config()``` to change text widget.
@@ -45,11 +45,14 @@ Components:
 - https://docs.python.org/3/library/tkinter.messagebox.html
   
 ## Sample Image Encryption / Decryption
-Original image (sample.png)  
+Original image (sample.png)    
+
 ![sample](sample.png)
 
-Encrypted image (sample_encrypted.png)  
+Encrypted image (sample_encrypted.png)    
+
 ![sample_encrypted](sample_encrypted.png)
 
-Decrypted image (sample_decrypted.png)  
+Decrypted image (sample_decrypted.png)    
+
 ![sample_decrypted](sample_decrypted.png)
