@@ -103,7 +103,7 @@ def button_encrypt():
     
     output_image_path = select_output_img(input_image_path, "Encrypt")
     
-    if not output_image_path:  # user canceled
+    if not output_image_path:
             return
     
     if encrypt_image(input_image_path, output_image_path, seed):
