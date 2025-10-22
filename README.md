@@ -13,10 +13,10 @@ An image browser built with python that allow user to encrypt / decrypt image. T
   4. ```import random # shuffle the pixels in a deterministic way, using a seed```
      
 ## Program Execution
-- Run the program in vscode using ```python en-de.py```
-- Select input image to encrypt / decrypt
-- Enter seed key (must be integer)
-- Click Encrypt / Decrypt button
+- Run the program in vscode by typing ```python en-de.py``` in the terminal.
+- Select input image to encrypt / decrypt.
+- Enter seed key (must be integer).
+- Click Encrypt / Decrypt button.
 - Choose the path to save the output image. User can modify the output image name, however, a suggested name is given as default.
 - The program successfully encrypte / decrypt the image.
 
