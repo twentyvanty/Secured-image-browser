@@ -43,6 +43,7 @@ Components:
 - https://www.geeksforgeeks.org/python/python-gui-tkinter/
 - https://docs.python.org/3/library/dialog.html
 - https://docs.python.org/3/library/tkinter.messagebox.html
+- https://python.plainenglish.io/step-by-step-of-image-encryption-using-python-79b10c1ed7dd
   
 ## Sample Image Encryption / Decryption (need editing)
 Original image (sample.png)    
