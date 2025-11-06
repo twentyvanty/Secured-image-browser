@@ -7,10 +7,11 @@ An image browser built with python that allow user to encrypt / decrypt image. T
   2. type ```python -m pip install pillow```
   3. type ```python -m pip install cryptography```
 - Create file on vs code and import library following below
-  1. ```import os # provides functions to interact w/os```
-  2. ```from tkinter import Tk, Button, Label, filedialog, messagebox, Toplevel```
-  3. ```from PIL import Image, ImageTk # allows to open, manipulate, and save image```
-  4. ```import random # shuffle the pixels in a deterministic way, using a seed```
+  1. ```import os```
+  2. ```from cryptography.fernet import Fernet, InvalidToken```
+  3. ```from pathlib import Path```
+  4. ```from tkinter import Tk, Button, Label, filedialog, messagebox, Toplevel```
+  5. ```from PIL import Image, ImageTk```
      
 ## Program Execution
 - Start the program.
