@@ -1,9 +1,9 @@
+import os
 from cryptography.fernet import Fernet, InvalidToken
-import base64
 from pathlib import Path
 from tkinter import Tk, Button, Label, filedialog, messagebox, Toplevel
 from PIL import Image, ImageTk
-import os
+
 
 KEY_FILENAME = "filekey.key"
 
@@ -100,7 +100,7 @@ def show_image_popup(image_path: str, title: str = "Image Preview"):
     img_resized = img.resize((int(w*ratio), int(h*ratio)), Image.LANCZOS)
     
     # convert
-    tk_img = ImageTk.PhotoImage(img)
+    tk_img = ImageTk.PhotoImage(img_resized)
 
     # display
     lbl = Label(popup, image=tk_img)
